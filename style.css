@@ -1,0 +1,121 @@
+/*Fonts*/
+
+body{
+	background: #937B69;
+	color: rgb(33,33,33);
+	font-family: 'Spartan', sans-serif;
+	margin: 0;
+	}
+h1 {
+	color: red;
+	font-size: 60px;
+	color: #3B0D11;
+	opacity: 0.9
+	font-family: 'Roboto', sans-serif;
+	}
+h2 {
+	font-size: 30px;
+	opacity: 0.9;
+	}
+p {
+	color: #3B0D11;
+	text-decoration: none;
+	font-family: 'Spartan', sans-serif;
+	}
+a {
+	text-decoration: underline;
+	color:#3B0D11;
+	font-family: 'Spartan', sans-serif;
+	}
+a:hover {
+	color:green;
+	text-decoration: none;
+	font-family: 'Spartan', sans-serif;
+	}
+
+/*Custom design*/
+
+
+
+#title {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgba(120,100,80,.7);
+	margin: 0 2px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px
+    /*font-weight: bolder;		*/
+    
+}
+.banner {
+	background-image: url("images/banner.png");
+	background-repeat: no-repeat;
+    background-position: center;
+	color: #3B0D11;
+	opacity: 0.9;
+	text-shadow: 2px 2px 3px black;
+  	display: flex;
+ 	height: 300px;
+	justify-content: center;
+  	align-items: center;
+  	background-size: cover;
+  	border:2px solid black;
+  	margin: 0 0 10px 0;
+}
+
+.card {
+	height: 200px;
+	width:	455px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: rgba(99,99,99,.6);
+	text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+	display: inline-block;
+
+}
+
+.grrr {
+	text-align: center;
+	/*display:flex;*/
+	justify-content: space-around; 	
+	width: 450px;
+	padding: 0;
+
+}
+
+
+.flex {
+	display:flex;
+	/*flex: 0 0 410px;*/
+	justify-content: space-around; 	
+	align-items: center;
+}
+
+/*#grrr.flex.row {
+	width: 880px;
+	flex: 1 0 880px;
+	align-items: center;
+	justify-content: space-around;*/
+}
+
+
+}
+
+#footer {
+	margin: 0;
+	border: 2px solid black;
+	background-image: url("images/banner.png");
+	background-size: cover;
+    background-position: center;
+	/*color: #3B0D11;*/
+  	display: inline-block;
+ 	height: 150px;
+	justify-content: center;
+}
